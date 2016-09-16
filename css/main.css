@@ -21,3 +21,82 @@ html {
 body {
   margin: 0;
 }
+
+p {
+  font-family: 'Droid Serif', serif;
+}
+
+h1, h2, h3, ul, copyright, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+}
+
+.right {
+  float: right;
+  width: 60%;
+  display: block;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.left {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 0;
+}
+
+footer {
+  clear: both;
+}
+
+
+@media only screen and (min-width: 20em) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 26em) {
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    font-size: 5.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
