@@ -59,6 +59,15 @@ footer {
   padding: 1em;
 }
 
+.icons {
+  width: 15%;
+}
+
+.middle {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
 @media only screen and (min-width: 20em) {
 
   h1 {
@@ -66,7 +75,7 @@ footer {
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   p {
@@ -85,7 +94,11 @@ footer {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .icons {
+    width: 11%;
   }
 }
 
@@ -96,7 +109,7 @@ footer {
   }
 
   h2 {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
   }
 
   p {
@@ -105,6 +118,10 @@ footer {
 
   .right {
     width: 60%;
+  }
+
+  .icons {
+    width: 5%;
   }
 }
 
@@ -115,10 +132,18 @@ footer {
   }
 
   h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   p {
     font-size: 1.2rem;
+  }
+
+  .right {
+    width: 70%;
+  }
+
+  .icons {
+    width: 2%;
   }
 }
